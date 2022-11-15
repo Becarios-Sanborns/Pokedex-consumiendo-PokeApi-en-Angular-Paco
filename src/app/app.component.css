@@ -1,0 +1,20 @@
+
+.Titulo{
+
+position:absolute;
+
+padding-left: 35%;
+
+}
+
+.Fondo{
+    position:absolute;  
+}
+
+
+.Pokedex{
+    padding-left: 40%;
+    padding-top: 250px;
+    position: absolute
+    
+}
