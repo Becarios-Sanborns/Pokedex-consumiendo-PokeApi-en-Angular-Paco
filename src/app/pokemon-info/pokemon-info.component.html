@@ -1,0 +1,39 @@
+<div class="Pokedex">
+    <img mat-card-avatar class="header-image" src="{{pokemonImg}}">
+    <div class="MainInfo">
+        <div class="Title" style="text-transform:uppercase;">{{pokemon.name}}</div>
+        <div class="Subtitle">N°{{pokemon.id}}</div>
+    </div>
+
+    <div class="Img"> <img src="{{pokemonImg}}" alt="Pokemon">
+
+    </div>
+
+    <mat-chip-list class="stats">
+
+        <mat-chip color="primary" selected>Height: {{pokemon.height}}</mat-chip>
+        <mat-chip color="primary" selected>Weight: {{pokemon.weight}}</mat-chip>
+    </mat-chip-list>
+
+    <div class="gridTipos">
+        <div class="tituloTipos">Tipos</div>
+        <div class="tipo" *ngFor="let types of tipos">
+            <mat-chip color="primary" selected>{{types}}</mat-chip>
+        </div>
+    </div>
+    <div class="gridHabilidades">
+        <div class="tituloHabilidades">Habilidades</div>
+        <div class="contenedorHabilidades">
+            <div class="Habilidad"*ngFor="let habilidad of habilidades">
+                <mat-chip  color="primary" selected>{{habilidad}}</mat-chip>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <img src="./assets/pokedex.jpg" width="500px" alt="">
+
+</div>

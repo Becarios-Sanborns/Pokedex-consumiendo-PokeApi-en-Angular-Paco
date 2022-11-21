@@ -1,0 +1,21 @@
+.Titulo {
+    position: absolute;
+    margin-top: 10px;
+    z-index: 1;
+    margin-left: 40%;
+
+}
+
+.videos video {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+
+}
+
+.Menu{
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+}
